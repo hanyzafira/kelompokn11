@@ -1,0 +1,53 @@
+
+@media all and (max-width: 1000px ) {
+    .list-movie {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .btn-wrapper input {
+        width: 50%;
+        margin-bottom: 5px;
+    }
+
+    .btn {
+        width: 30%;
+    }
+
+    .register-account {
+        height: 250px;
+    }
+
+}
+
+
+@media all and (max-width: 670px ) {
+    .btn {
+        width: 50%;
+    }
+
+    .top-wrapper h1 {
+        letter-spacing: 0px;
+    }
+
+    .signup {
+        margin-top: 20px;
+    }
+
+    .list-movie {
+        width: 100%;
+    }
+
+    .list-title h2 {
+        letter-spacing: 0px;
+    }
+
+    .main-list {
+        text-align: center;
+    }
+
+    .register-account {
+        height: 250px;
+    }
+
+}
