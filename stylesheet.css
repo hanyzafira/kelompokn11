@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+/* BAGIAN HEADER + MAIN */
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #000000;
+    z-index: 10;
+    position: fixed;
+}
+  
+.logo {
+    width: 150px;
+    margin-top: 20px;
+}
+  
+.header-left {
+    float: left;
+}
+  
+.header-right {
+    float: right;
+    /* Ubah property transition */
+    transition:all 0.5s;
+    
+}
+  
+.header-right button:hover {
+    background-color: rgba(20, 20, 20, 0.5);
+}
+  
+  /* Tambahkan CSS untuk tag <a> di dalam header-right */
+.header-right button{
+    margin-top: 17px;
+    margin-right: 40px;
+    height:30px;
+    width: 60;
+    padding-left:25px;
+    padding-right:25px;
+    border-radius: 8px;
+    background-color:red;
+    display:block;
+    color: white;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.header-right button:hover {
+    background-color: rgb(71, 71, 71);
+    color: rgb(255, 255, 255);
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),url(https://assets.nflxext.com/ffe/siteui/vlv3/5523db5a-e2b2-497f-a88b-61f175c3dbad/114e0ccb-c7d7-4f53-976a-822fc9dff35e/ID-en-20230306-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+    
+    color: white;
+    text-align: center;
+}
+  
+.top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+  
+.top-wrapper p {
+    margin-bottom: 3px;
+}
+  
+.btn-wrapper {
+    margin: 20px 0;
+}
+  
+.signup {
+    background-color: red;
+    text-decoration: none;
+}
+
+.btn-wrapper input{
+    background-color: #353535;
+    border-radius:4px;
+    height: 35px;
+    width: 400px;
+    opacity: 0.6;
+    border-color: white;
+    color: #dddddd;
+    margin-right: 20px;
+}
+  
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+  
+.btn:hover {
+    opacity: 1;
+}
+
+
+
+/* BAGIAN BODY */
+
+.main-list {
+    width: 100%;
+    background-color: black;
+    padding: 30px 0 40px 0;
+    height: 100%;
+    text-align: center;
+    border-top: 3px solid #353535;
+}
+
+.list-title {
+    font-weight: normal;
+    color: whitesmoke;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.list-title h2 {
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.list-title p {
+    padding: 0 10px
+    font-size: 15px;
+}
+
+.list-movie {
+    width: 25%;
+    cursor: pointer;
+    float: left;
+    margin: 0 auto;
+    display: block;
+    padding-top: 20px;
+}
+
+.movie-pic img {
+    width: 200px;
+    padding: 10px 10px;
+    margin: 0 auto;
+}
+
+.movie-pic p {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.movie p {
+    color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    font-weight: normal;
+    margin-left: 20px;
+    opacity: 0.8;
+}
+
+
+
+/* BAGIAN FORMULIR + FOOTER */
+
+.register-account {
+    background-color: black;
+    border-top: 1px solid #353535;
+    text-align: center;
+    padding: 10px 0;
+    height: 200px;
+}
+
+.register-head h2 {
+    color: whitesmoke;
+    font-weight: bold;
+    opacity: 0.8;
+    padding-bottom: 10px;
+}
+.register-head p {
+    color: whitesmoke;
+    opacity: 0.8;
+    padding-bottom: 10px;
+    
+}
+
+.register {
+    background-color: #E90064;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    box-shadow: 0 4px #E96479;
+}
+
+.register:active {
+    position: relative;
+    top: 4px;
+    box-shadow: none;
+}
+
+footer {
+    background-color: black;
+    border-top: 3px solid #353535;
+    padding: 20px 30px;
+    height: 250px;
+    color: white;
+}
+
+footer p{
+    color:#b3aeb5;
+    font-size:12px;
+  }
